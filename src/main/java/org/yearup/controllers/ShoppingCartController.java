@@ -26,7 +26,6 @@ public class ShoppingCartController
 
     private UserDao userDao;
     private ProductDao productDao;
-    @Bean
     private ShoppingCartDao shoppingCartDao;
     @Autowired
     public ShoppingCartController(ShoppingCartDao shoppingCartDao,
