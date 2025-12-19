@@ -14,8 +14,8 @@ import java.util.List;
 // add the annotation to make this controller the endpoint for the following url
     // http://localhost:8080/categories
 @RestController
-@RequestMapping
-@CrossOrigin
+@RequestMapping("/categories")
+@CrossOrigin(origins = "http://localhost:63342", allowCredentials = "true")
 public class CategoriesController
 {
     private CategoryDao categoryDao;
@@ -37,6 +37,7 @@ public class CategoriesController
     }
 
     // add the appropriate annotation for a get action
+    @GetMapping("/{id}")
     public Category getById(@PathVariable int id)
     {
         // get the category by id
