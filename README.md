@@ -87,4 +87,7 @@ A peak into the items added to the Cart
 
 Emmanuel Owiti
 
+Workboard: https://trello.com/invite/b/6940903b58c3b0e679e33072/ATTI4d69fb998f9b72f4260c8986f06343808336B1B1/e-commerce-api
+
+
 
