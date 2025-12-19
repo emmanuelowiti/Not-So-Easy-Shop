@@ -57,7 +57,7 @@ This project involves:
 
 
 
-## Web-Browser Snippet
+## Front End View
 
 ## Home page
 
@@ -86,4 +86,5 @@ A peak into the items added to the Cart
 # 👨‍💻 Author
 
 Emmanuel Owiti
+
 
